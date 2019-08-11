@@ -1,0 +1,38 @@
+@tailwind base
+
+@tailwind components
+
+.section-header
+    @apply text-3xl mt-4 mb-8 py-4 relative
+
+
+.nav-links
+    @apply flex justify-center flex-wrap -mx-2
+    @screen md
+        @apply justify-end inline-flex
+
+.nav-link
+    @apply relative inline-block px-2 mx-2 py-2 uppercase text-xs font-bold tracking-wide
+    &::after
+        @apply border-b border-r
+        transform-origin: bottom right
+    &::before
+        @apply border-t border-l
+        transform-origin: top left
+    &::after, &::before
+        content: ''
+        @apply absolute inset-0 border-blue-300
+        transform: scale(0)
+        transition: transform .4s linear
+    &:hover
+        @apply text-blue-300
+        &::after, &::before
+            transform: scale(1)
+
+@tailwind utilities
+
+
+.no-scrollbar 
+    scrollbar-width: none
+    &::-webkit-scrollbar
+        display: none
