@@ -52,14 +52,14 @@
             <h2 class="section-header">Teaching Staff</h2>
             <div class="staff flex flex-wrap -m-2 mb-12">
                 @foreach ($page->content('staff.teaching.permanent') as $member)
-                    <div class="staff-wrapper w-1/4 p-2">
+                    <div class="staff-wrapper w-full md:w-1/2 lg:w-1/3 p-2">
                         @include('_partials.staff-member', ['member' => $member])
                     </div>
                 @endforeach
             </div>
             <div class="staff flex flex-wrap -m-2">
                 @foreach ($page->content('staff.teaching.temporary') as $member)
-                <div class="staff-wrapper w-1/4 p-2">
+                <div class="staff-wrapper w-full md:w-1/2 lg:w-1/3 p-2">
                     @include('_partials.staff-member', ['member' => $member])
                 </div>
                 @endforeach
@@ -69,7 +69,7 @@
             <h2 class="section-header">Non-Teaching Staff</h2>
             <div class="staff flex flex-wrap justify-center -m-2">
                 @foreach ($page->content('staff.non-teaching') as $member)
-                <div class="staff-wrapper w-1/4 p-2">
+                <div class="staff-wrapper w-full md:w-1/2 lg:w-1/3 p-2">
                     @include('_partials.staff-member', ['member' => $member])
                 </div>
                 @endforeach

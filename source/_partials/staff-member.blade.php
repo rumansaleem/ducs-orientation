@@ -4,7 +4,7 @@
         alt="{{ $member['name'] }}">
     <h3 class="text-lg font-bold mb-1">{{ $member['name'] }}</h3>
     <h4 class="text-xs uppercase font-bold text-gray-400 mb-2">{{ $member['designation'] }}</h4>
-    <p class="mb-4">
+    <p class="mb-4 whitespace-no-wrap">
         <svg class="inline-block h-current mr-1 text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
