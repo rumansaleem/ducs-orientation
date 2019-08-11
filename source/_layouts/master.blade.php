@@ -27,8 +27,8 @@
             <main>
                 @yield('body')
             </main>
-            <footer class="bg-gray-700 py-2">
-                <p class="text-center">djdfksajdkf dkfj kdasjfkl</p>
+            <footer class="bg-gray-800 py-2 border-t-2 border-blue-400">
+                <p class="text-center">DUCS Orientation &copy; 2019</p>
             </footer>
         </div>
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
