@@ -16,7 +16,9 @@ mix.webpackConfig({
 mix.js('source/_assets/js/main.js', 'js')
     .sass('source/_assets/sass/main.sass', 'css')
     .tailwind('tailwind.config.js')
-    .purgeCss()
+    .purgeCss({
+        folders: ['source']
+    })
     .options({
         processCssUrls: false,
     }).version();
