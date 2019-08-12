@@ -15,7 +15,7 @@
         <div id="app">
             <header class="sticky top-0 z-50 bg-gray-800 shadow-lg py-2 border-b-2 border-blue-400">
                 <div class="container flex flex-col justify-center md:flex-row md:justify-between items-center">
-                <a class="block text-center md:text-left hover:shadow-outline p-1" href="{{ $page->baseUrl }}">
+                    <a class="block text-center md:text-left hover:shadow-outline p-1" href="{{ $page->baseUrl }}/">
                         <h1 class="text-lg font-semibold text-blue-300 leading-normal">Department of Computer Science</h1>
                         <h3 class="text-sm uppercase tracking-wide font-semibold">Delhi University</h3>
                     </a>
@@ -24,7 +24,7 @@
                     </nav>
                 </div>
             </header>
-            <main>
+            <main class="min-h-screen">
                 @yield('body')
             </main>
             <footer class="bg-gray-800 py-2 border-t-2 border-blue-400">
