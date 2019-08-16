@@ -13,7 +13,7 @@
     </head>
     <body class="font-sans min-h-screen bg-gray-900 text-white leading-tight">
         <div id="app">
-            <header class="sticky top-0 z-50 bg-gray-800 shadow-lg py-2 border-b-2 border-blue-400">
+            <header class="sticky top-0 z-50 bg-gray-800 shadow-md py-2 border-b-2 border-blue-400">
                 <div class="container flex flex-col justify-center md:flex-row md:justify-between items-center">
                     <a class="block text-center md:text-left hover:shadow-outline p-1" href="{{ $page->baseUrl }}/">
                         <h1 class="text-lg font-semibold text-blue-300 leading-normal">Department of Computer Science</h1>
@@ -27,7 +27,7 @@
             <main class="min-h-screen">
                 @yield('body')
             </main>
-            <footer class="bg-gray-800 py-2 border-t-2 border-blue-400">
+            <footer class="bg-gray-800 py-2 border-t-2 border-blue-400 text-xs">
                 <p class="text-center">DUCS Orientation &copy; 2019</p>
             </footer>
         </div>

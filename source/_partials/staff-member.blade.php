@@ -1,9 +1,18 @@
-<div class="bg-gray-700 p-4 rounded-lg">
+<div class="bg-gray-800 p-4 rounded-lg shadow-inner-drop-md">
     <img src="{{ $page->baseUrl }}/{{ $member['avatar'] }}" 
         class="rounded-full w-24 h-24 object-cover mx-auto mb-3"
         alt="{{ $member['name'] }}">
-    <h3 class="text-lg font-bold mb-1">{{ $member['name'] }}</h3>
-    <h4 class="text-xs uppercase font-bold text-gray-400 mb-2">{{ $member['designation'] }}</h4>
+    <h3 class="text-lg font-bold mb-1 flex justify-center">
+        {{ $member['name'] }}
+        
+    </h3>
+    <h4 class="text-xs uppercase font-bold text-gray-400 mb-2 flex justify-center items-center">
+        {{ $member['designation'] }}
+        @if($member['isHead'])
+        <span class="ml-2 bg-blue-400 text-white px-3 py-1 rounded-full"
+        title="Head of the Department">HOD</span>
+        @endif
+    </h4>
     <p class="mb-4 whitespace-no-wrap">
         <svg class="inline-block h-current mr-1 text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
