@@ -646,9 +646,6 @@ video {
   color: #63b3ed;
 }
 
-.section-header:first-word {
-}
-
 .nav-links {
   display: flex;
   justify-content: center;
