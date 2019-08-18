@@ -1,6 +1,7 @@
 <template>
-    <div class="flex flex-wrap">
-        <div v-for="(image, index) in images" :key="index" class="w-full md:w-1/2 lg:1/3 p-2 cursor-pointer">
+    <div class="flex overflow-x-auto no-scrollbar">
+        <div v-for="(image, index) in images"  :key="index"
+            class="w-full md:w-1/2 p-2 cursor-pointer flex-shrink-0">
             <img :src="image.src" :alt="image.caption" class="h-64 w-full object-cover rounded-lg" @click="open(index)">
         </div>
         <div v-if="showLightBox" class="fixed inset-0 bg-black-90 p-4 flex flex-col justify-center items-center overflow-y-auto no-scrollbar" style="z-index: 999;">

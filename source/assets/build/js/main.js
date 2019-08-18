@@ -117,6 +117,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     images: {
@@ -725,14 +726,14 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "flex flex-wrap" },
+    { staticClass: "flex overflow-x-auto no-scrollbar" },
     [
       _vm._l(_vm.images, function(image, index) {
         return _c(
           "div",
           {
             key: index,
-            staticClass: "w-full md:w-1/2 lg:1/3 p-2 cursor-pointer"
+            staticClass: "w-full md:w-1/2 p-2 cursor-pointer flex-shrink-0"
           },
           [
             _c("img", {
