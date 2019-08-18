@@ -1,11 +1,11 @@
 @extends('_layouts.master')
 
 @section('body')
-    <div class="relative min-h-64 h-screen-3/4 bg-cover" style="background-image: url('{{ $page->baseUrl }}/assets/images/department.jpg');">
-        <div class="absolute inset-0 bg-black-75"></div>
-        <div class="relative container flex flex-col h-full justify-center">
+    <div class="relative min-h-64 h-screen-3/4 bg-cover group" style="background-image: url('{{ $page->baseUrl }}/assets/images/department.jpg');">
+        <div class="absolute inset-0 bg-black-75 group-hover:bg-transparent transition-background"></div>
+        <div class="relative container flex flex-col h-full justify-center group-hover:opacity-0 transition-opacity">
             <h1 class="text-center text-3xl"> Welcome to <span class="text-blue-400 font-bold">DUCS</span></h1>
-            <p class="text-center mt-4 text-lg max-w-md lg:mx-auto">
+            <p class="text-center mt-4 text-lg max-w-sm lg:mx-auto text-lg">
                 {{ $page->intro }}
             </p>
         </div>

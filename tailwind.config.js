@@ -47,6 +47,9 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    backgroundColor: ['hover', 'group-hover', 'responsive'],
+    opacity: ['hover', 'group-hover', 'responsive']
+  },
   plugins: []
 }

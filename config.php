@@ -5,7 +5,7 @@ use Illuminate\Support\Arr;
 return [
     'production' => false,
     'baseUrl' => '',
-    'intro' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rem vitae voluptate neque quaerat sed magni accusamus. Magni corrupti nihil a tenetur? Consequuntur corrupti saepe minima itaque assumenda eos ipsum.',
+    'intro' => 'We fuel the world with our power to create technocrats that make the world a better place to live in.',
     'collections' => [
         'achievements' => [
             'sort' => 'id'
