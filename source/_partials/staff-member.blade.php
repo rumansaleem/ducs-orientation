@@ -1,7 +1,9 @@
 <div class="bg-gray-800 p-4 rounded-lg shadow-inner-drop-md">
-    <img src="{{ $page->baseUrl }}/{{ $member['avatar'] }}" 
-        class="rounded-full w-24 h-24 object-cover mx-auto mb-3"
-        alt="{{ $member['name'] }}">
+    <div class="rounded-full w-24 h-24 object-cover mx-auto mb-3 bg-gray-600 overflow-hidden shadow-md">
+        <img src="{{ $page->baseUrl }}/{{ $member['avatar'] }}" 
+            class="w-full h-full flex items-center"
+            alt="{{ $member['name'] }}">
+    </div>
     <h3 class="text-lg font-bold mb-1 flex justify-center">
         {{ $member['name'] }}
         

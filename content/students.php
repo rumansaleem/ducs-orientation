@@ -108,7 +108,7 @@ return [
     'ronak-aggarwal' => [
         'name' => 'Ronak Aggarwal',
         'avatar' => 'assets/images/students/ronak-aggarwal.jpg',
-        'course' => 'MCA III',
+        'course' => 'MSC II',
         'contact' => [
             'email' => 'ronak.mcs18.du@gmail.com',
             'github' => '/ronakaggarwal',
@@ -218,7 +218,7 @@ return [
     'nitin-kumar' => [
         'name' => 'Nitin Kumar',
         'avatar' => 'assets/images/students/nitin-kumar.jpg',
-        'course' => 'MCA III',
+        'course' => 'MCA II',
         'contact' => [
             'email' => 'nitin.mca18.du@gmail.com',
         ]
