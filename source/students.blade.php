@@ -33,10 +33,10 @@
         </h2>
     
         <div class="flex flex-wrap -m-2">
-            @foreach($page->content('placement_coordinators') as $designation => $student)
+            @foreach($page->content('placement_coordinators') as $student)
             <div class="staff-wrapper w-full md:w-1/2 lg:w-1/3 p-2">
                 @include('_partials.student', [
-                    'designation' => $designation,
+                    'designation' => 'Placement Coordinator',
                     'student' => $page->content("students.{$student}")->all()
                 ])
             </div>

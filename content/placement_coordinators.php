@@ -1,8 +1,10 @@
 <?php
 
 return [
-    'Placement Coordinator' => 'anjali-bansal',
-    'Placement Coordinator' => 'anjali-bansal',
-    'Placement Coordinator' => 'anjali-bansal',
-    'Placement Coordinator' => 'anjali-bansal',
+    'anjali-bansal',
+    'avinash-prasad',
+    'ayush-kumar-singh',
+    'rishav-kohli',
+    'swati-gautam',
+    'vikas-goswami',
 ];

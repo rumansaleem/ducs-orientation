@@ -1,5 +1,5 @@
 <div class="bg-gray-800 p-4 rounded-lg flex items-center">
-    <div class="relative w-32 h-32 mx-auto mr-3">
+    <div class="relative w-28 h-28 mx-auto mr-3 flex-shrink-0">
         <img src="{{ $page->baseUrl }}/{{ $student['avatar'] }}" class="rounded-full w-full h-full object-cover"
             alt="{{ $student['name'] }}">
         @if(array_key_exists('course', $student))
