@@ -136,4 +136,58 @@ return [
             'linkedin' => '/shoaibrayeen',
         ]
     ],
+    'ruman-saleem' => [
+        'name' => 'Ruman Saleem',
+        'avatar' => 'assets/images/students/ruman-saleem.jpg',
+        'course' => 'MSC II',
+        'contact' => [
+            'email' => 'ruman.mcs18.du@gmail.com',
+            'github' => '/rumansaleem',
+            'twitter' => '/ruman_saleem',
+        ]
+    ],
+    'divesh-bhagat' => [
+        'name' => 'Divesh Bhagat',
+        'avatar' => 'assets/images/students/divesh-bhagat.jpg',
+        'course' => 'MSC II',
+        'contact' => [
+            'email' => 'divesh.mcs18.du@gmail.com',
+            'github' => '/divesh147',
+        ]
+    ],
+    'pranav-gurditta' => [
+        'name' => 'Pranav Gurditta',
+        'avatar' => 'assets/images/students/pranav-gurditta.jpg',
+        'course' => 'MCA II',
+        'contact' => [
+            'email' => 'pranav.mca18.du@gmail.com',
+            'github' => '/pranavgurditta',
+        ]
+    ],
+    'abhishek-kansal' => [
+        'name' => 'Abhishek Kansal',
+        'avatar' => 'assets/images/students/abhishek-kansal.jpg',
+        'course' => 'MCA II',
+        'contact' => [
+            'email' => 'abhishek.mca18.du@gmail.com',
+            'github' => '/abhishall',
+        ]
+    ],
+    'anisha-kathuria' => [
+        'name' => 'Anisha Kathuria',
+        'avatar' => 'assets/images/students/anisha-kathuria.jpg',
+        'course' => 'MCA II',
+        'contact' => [
+            'email' => 'anisha.mca18.du@gmail.com',
+            'github' => '/anisha-kathuria',
+        ]
+    ],
+    'aditya-aggarwal' => [
+        'name' => 'Aditya Aggarwal',
+        'avatar' => 'assets/images/students/aditya-aggarwal.jpg',
+        'course' => 'MCA II',
+        'contact' => [
+            'email' => 'aditaagg.mca18.du@gmail.com',
+        ]
+    ],
 ];

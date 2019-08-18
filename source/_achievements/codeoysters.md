@@ -5,18 +5,23 @@ type: team
 avatar: assets/images/students/codeoysters.jpg
 event: Smart India Hackathon
 team: 
-  - member: 'jatin-rohilla'
-  - member: 'jatin-rohilla'
-  - member: 'jatin-rohilla'
-  - member: 'jatin-rohilla'
-  - member: 'jatin-rohilla'
+  - member: 'abhishek-kansal'
+  - member: 'aditya-aggarwal'
+  - member: 'anisha-kathuria'
+  - member: 'divesh-bhagat'
+  - member: 'pranav-gurditta'
     designation: Leader
-  - member: 'jatin-rohilla'
+  - member: 'ruman-saleem'
 
   - member: 'jatin-rohilla'
     designation: Mentor
   - member: 'anjali-bansal'
     designation: Mentor
+
+youtube_embed: https://www.youtube.com/embed/T1cBttVZ-7c
+source_code: 
+  - https://github.com/pranavgurditta/multilingual-chat-bot
+  - https://github.com/rumansaleem/codeoysters
 
 ---
 ### Multilingual voice assistant for kotak Mahindra
