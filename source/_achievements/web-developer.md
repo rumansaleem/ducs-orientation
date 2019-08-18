@@ -14,6 +14,6 @@ I am a passionate full-stack web developer. I have been learning web development
 
 Be it Digital marketing, E-Commerce, or a SaaS application, Web developers are required everywhere. Being a web developer you can cater to the world even with just a single attractive page on the web. 
 
-If you too are a passionate web developer and you think you can contribute to the development of sanklan portal, feel free to contact me on twitter or through email. Or, even if you have just begun learning web development don't hesitate to contact me.
+If you too are a passionate web developer and you think you can contribute to the development of sanklan portal, feel free to reach out to me on twitter or through email. Or, even if you have just begun or interested in learning web development don't hesitate, just reach out to me.
 
 
