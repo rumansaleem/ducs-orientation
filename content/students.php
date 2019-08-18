@@ -102,7 +102,7 @@ return [
         'contact' => [
             'email' => 'jatin.mcs18.du@gmail.com',
             'github' => '/jatin69',
-            'twitter' => '/jatinrohilla69',
+            'twitter' => '@jatinrohilla69',
         ]
     ],
     'ronak-aggarwal' => [
@@ -132,7 +132,7 @@ return [
         'contact' => [
             'email' => 'shoaib.mca17.du@gmail.com',
             'github' => '/shoaibrayeen',
-            'twitter' => '/shoaibrayeen',
+            'twitter' => '@shoaibrayeen',
             'linkedin' => '/shoaibrayeen',
         ]
     ],
@@ -143,7 +143,8 @@ return [
         'contact' => [
             'email' => 'ruman.mcs18.du@gmail.com',
             'github' => '/rumansaleem',
-            'twitter' => '/ruman_saleem',
+            'twitter' => '@ruman_saleem',
+            'globe' => 'rumansaleem.github.io'
         ]
     ],
     'divesh-bhagat' => [

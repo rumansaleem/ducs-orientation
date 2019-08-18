@@ -725,6 +725,11 @@ video {
   color: #63b3ed;
 }
 
+.markdown ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
