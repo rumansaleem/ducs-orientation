@@ -190,4 +190,44 @@ return [
             'email' => 'aditaagg.mca18.du@gmail.com',
         ]
     ],
+    'vipin-kumar' => [
+        'name' => 'Vipin Kumar',
+        'avatar' => 'assets/images/students/vipin-kumar.jpg',
+        'course' => 'MCA III',
+        'contact' => [
+            'email' => 'vipin.mca17.du@gmail.com',
+        ]
+    ],
+    'vikas-prajapati' => [
+        'name' => 'Vikas Prajapati',
+        'avatar' => 'assets/images/students/vikas-prajapati.jpg',
+        'course' => 'MCA II',
+        'contact' => [
+            'email' => 'vikas.mca18.du@gmail.com',
+        ]
+    ],
+    'shruti-katyal' => [
+        'name' => 'Shruti Katyal',
+        'avatar' => 'assets/images/students/shruti-katyal.jpg',
+        'course' => 'MCA II',
+        'contact' => [
+            'email' => 'shruti.mca18.du@gmail.com',
+        ]
+    ],
+    'nitin-kumar' => [
+        'name' => 'Nitin Kumar',
+        'avatar' => 'assets/images/students/nitin-kumar.jpg',
+        'course' => 'MCA III',
+        'contact' => [
+            'email' => 'nitin.mca18.du@gmail.com',
+        ]
+    ],
+    'shreshth-saxena' => [
+        'name' => 'Shreshth Saxena',
+        'avatar' => 'assets/images/students/shreshth-saxena.jpg',
+        'course' => 'MSC 2017',
+        'contact' => [
+            'email' => 'shreshth.mcs17.du@gmail.com',
+        ]
+    ],
 ];
