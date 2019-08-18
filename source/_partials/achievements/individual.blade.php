@@ -2,11 +2,11 @@
     $student = $page->content("students.{$achievement->student}")->all();
 @endphp
 <div class="bg-gray-800 p-6 rounded-lg text-left">
-    <h2 class="text-2xl capitalize text-center mb-6">{{ $achievement->title }}</h2>
+    <h2 class="text-2xl text-center mb-6">{{ $achievement->title }}</h2>
     <div class="flex items-center mb-8">
         <img src="{{ $page->baseUrl }}/{{ $student['avatar'] }}" class="rounded-full w-24 h-24 object-cover"
             alt="{{ $student['name'] }}">
-        <div class="flex-1 text-left pl-6 text-gray-500">
+        <div class="flex-1 text-left pl-6 text-gray-300">
             <h3 class="text-xl font-bold mb-1 flex items-center">
                 @if(array_key_exists('link', $student))
                 <a href="{{ $student['link'] }}" class="hover:text-blue-400">{{ $student['name'] }}</a>

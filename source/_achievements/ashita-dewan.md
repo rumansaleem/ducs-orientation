@@ -1,6 +1,6 @@
 ---
 id: 1
-title: Ashita Diwan
+title: Received multiple admits from reputed Universities abroad
 type: individual
 student: ashita-diwan
 ---
