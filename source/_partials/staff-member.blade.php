@@ -8,9 +8,8 @@
     </h3>
     <h4 class="text-xs uppercase font-bold text-gray-400 mb-2 flex justify-center items-center">
         {{ $member['designation'] }}
-        @if($member['isHead'] ?? false)
-        <span class="ml-2 bg-blue-400 text-white px-3 py-1 rounded-full"
-        title="Head of the Department">HOD</span>
+        @if(array_key_exists('label', $member))
+        <span class="ml-2 bg-blue-400 text-white px-3 py-1 rounded-full">{{ $member['label'] }}</span>
         @endif
     </h4>
     <p class="mb-4 whitespace-no-wrap">
