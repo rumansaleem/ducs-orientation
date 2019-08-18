@@ -11731,6 +11731,11 @@ video {
   z-index: auto;
 }
 
+.table-fit {
+  width: 1%;
+  white-space: nowrap;
+}
+
 .no-scrollbar {
   scrollbar-width: none;
 }

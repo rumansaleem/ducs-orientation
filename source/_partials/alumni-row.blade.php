@@ -23,11 +23,7 @@
         <h4 class="text-base font-bold text-gray-400">{{ $alumni['company'] }}</h4>
         @if(array_key_exists('email', $alumni))
         <p class="mt-2 whitespace-no-wrap">
-            <svg class="inline-block h-current mr-1 text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-            </svg>
+            @include('_svg.email', ['class' => 'h-current mr-2'])
             {{ $alumni['email'] }}
         </p>
         @endif
