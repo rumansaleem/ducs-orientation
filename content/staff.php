@@ -8,66 +8,36 @@ return [
             'designation' => 'Professor',
             'label' => 'HOD',
             'email' => 'vasudhabhatnagar@gmail.com',
-            'interests' => [
-                'Data Mining',
-                'Evolutionary Algorithms',
-                'Parallel Computing',
-            ],
         ],
         [
             'name' => 'Dr. Naveen Kumar',
             'avatar' => 'assets/images/staff/naveen-kumar.jpg',
             'designation' => 'Professor',
             'email' => 'nk.cs.du@gmail.com',
-            'interests' => [
-                'Data Mining',
-                'Evolutionary Algorithms',
-                'Parallel Computing',
-            ],
         ],
         [
             'name' => 'Dr. Punam Bedi',
             'avatar' => 'assets/images/staff/punam-bedi.jpg',
             'designation' => 'Professor',
             'email' => 'punambedi@gmail.com',
-            'interests' => [
-                'AI',
-                'Evolutionary Algorithms',
-                'Parallel Computing',
-            ],
         ],
         [
             'name' => 'Dr. SK Mutto',
             'avatar' => 'assets/images/staff/sk-mutto.jpg',
             'designation' => 'Professor',
             'email' => 'drskmutto@gmail.com',
-            'interests' => [
-                'AI',
-                'Evolutionary Algorithms',
-                'Parallel Computing',
-            ],
         ],
         [
             'name' => 'Dr. Neelima Gupta',
             'avatar' => 'assets/images/staff/neelima-gupta.jpg',
             'designation' => 'Professor',
             'email' => 'ngupta.cs.du@gmail.com',
-            'interests' => [
-                'Algorithms',
-                'Evolutionary Algorithms',
-                'Parallel Computing',
-            ],
         ],
         [
             'name' => 'Dr. PK Hazra',
             'avatar' => 'assets/images/staff/pk-hazra.jpg',
             'designation' => 'Professor',
             'email' => 'pradyot.k.hazra@gmail.com',
-            'interests' => [
-                'Computer Networks',
-                'Evolutionary Algorithms',
-                'Parallel Computing',
-            ],
         ],
         
         // Temporary Adhoc/Guest
@@ -108,12 +78,6 @@ return [
             'avatar' => 'assets/images/staff/devki-rawat.jpg',
             'designation' => 'Technical Assistant',
             'email' => 'lab.cs.du@gmail.com',
-        ],
-        [
-            'name' => 'Banshraj Ram',
-            'avatar' => 'assets/images/staff/banshraj-ram.jpg',
-            'designation' => 'Laboratory Assistant',
-            'email' => 'br.cs.du@gmail.com',
         ],
         [
             'name' => 'Anand Singh',
